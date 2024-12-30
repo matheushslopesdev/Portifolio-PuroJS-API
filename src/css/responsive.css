@@ -1,0 +1,256 @@
+@media only screen and (max-width: 800px) {
+  .header {
+    flex-direction: column;
+    height: 130px;
+
+    & h1 {
+      margin-left: 0;
+      & a:hover {
+        font-size: 100%;
+      }
+    }
+  }
+
+  .navbar {
+    margin-right: 0%;
+  }
+
+  .sections {
+    & .block-section {
+      & .img-avatar {
+        width: 50%;
+      }
+
+      & .text-apresent {
+        width: 90%;
+        font-size: 20px;
+        text-align: justify;
+      }
+    }
+  }
+
+  footer {
+    font-size: 7px;
+    height: 50px;
+    & h1 {
+      width: 45%;
+    }
+    & #redes {
+      font-size: 20px;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      width: 10%;
+      height: 10%;
+    }
+  }
+}
+
+
+@media only screen and (max-width: 800px) {
+    .converter{
+        width: 50%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 10px;
+    
+    
+        & .dolar{
+            display: flex;
+            flex: 50%;
+            flex-direction: column;
+            padding: 10px;
+            
+            & #dolar{
+        
+                flex-direction: column;
+                padding: 10px;
+                font-family: "Josefin Sans", serif;
+                font-size: 30px;
+                
+            }
+    
+            & label {
+                font-size: 20px;
+                font-family: "Josefin Sans", serif;
+              }
+            
+        }
+    
+        & .real{
+            display: flex;
+            flex: 50%;
+            flex-direction: column;
+            padding: 10px;
+           
+    
+            & #real{
+                
+                flex-direction: column;
+                padding: 10px;
+                font-family: "Josefin Sans", serif;
+                font-size: 30px;
+            
+            }
+    
+            & label {
+                font-size: 20px;
+                font-family: "Josefin Sans", serif;
+              }
+        }
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+  .header {
+    flex-direction: column;
+    height: auto 0;
+
+    & h1 {
+      margin-left: 0;
+      & a:hover {
+        font-size: 100%;
+      }
+    }
+  }
+
+  .navbar {
+    margin-right: 0%;
+  }
+
+  .sections {
+    & .block-section {
+      & .img-avatar {
+        width: 50%;
+      }
+
+      & .text-apresent {
+        width: 90%;
+        font-size: 20px;
+        text-align: justify;
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .header {
+    & h1 {
+      margin-left: 0;
+      & a:hover {
+        font-size: 100%;
+      }
+    }
+  }
+
+  .navbar {
+    margin-right: 0%;
+  }
+
+  .sections {
+    & .block-section {
+      & .img-avatar {
+        width: 50%;
+      }
+
+      & .text-apresent {
+        width: 90%;
+        font-size: 20px;
+        text-align: justify;
+      }
+    }
+  }
+
+  footer {
+    font-size: 7px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: 10px;
+
+    & h1 {
+      width: 100%;
+      margin-left: 8px;
+    }
+    & .redes {
+      font-size: 30px;
+    }
+  }
+}
+
+
+
+@media only screen and (max-width: 800px) {
+   
+    
+    .calc-tmb {
+        width: 50%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      
+        & .alt {
+          display: flex;
+          flex-direction: column;
+          margin-bottom: 10px;
+          margin-top: 60px;
+      
+          & label {
+            font-family: "Josefin Sans", serif;
+          }
+      
+          & input {
+            width: 300px;
+            height: 30px;
+            text-align: center;
+            font-family: "Josefin Sans", serif;
+            font-size: 20px;
+          }
+        }
+      
+        & .peso {
+          display: flex;
+          flex-direction: column;
+          margin-bottom: 10px;
+      
+          & label {
+            font-family: "Josefin Sans", serif;
+          }
+      
+          & input {
+            width: 300px;
+            height: 30px;
+            text-align: center;
+            font-family: "Josefin Sans", serif;
+            font-size: 20px;
+          }
+        }
+      
+        & .idade {
+          display: flex;
+          flex-direction: column;
+          margin-bottom: 10px;
+      
+          & label {
+            font-family: "Josefin Sans", serif;
+          }
+      
+          & input {
+            width: 300px;
+            height: 30px;
+            text-align: center;
+            font-family: "Josefin Sans", serif;
+            font-size: 20px;
+          }
+        }
+      }
+    
+      
+      
+    
+  }

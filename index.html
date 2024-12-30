@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link
+      rel="shortcut icon"
+      href="./src/image/avatar-icon.ico"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./src/css/style.css" />
+    <link rel="stylesheet" href="./src/css/responsive.css" />
+    <link rel="stylesheet" href="./src/css/calc-tmb.css" />
+    <link rel="stylesheet" href="./src/css/converterMoeda.css" />
+    <title>< DevLopes ></title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <h1><a href="#"> < DevLopes > </a></h1>
+        <nav class="navbar">
+          <ul>
+            <li><a href="#home"><i class="bi bi-house"> </i>Home</a></li>
+            <li><a href="#p1"><i class="bi bi-person-workspace"> </i>Projetos</a></li>
+          </ul>
+        </nav>
+      </header>
+
+      <main>
+        <section class="sections">
+          <div class="block-section">
+            <img class="img-avatar" src="./src/image/avatar-2.png" />
+            <p class="text-apresent">
+              Olá! Sou <b>Matheus Henrique Souza Lopes</b>, desenvolvedor apaixonado
+              por criar soluções tecnológicas que transformam ideias em
+              realidade. Aqui, você encontrará projetos que mostram minha
+              experiência com Python, Node.js e tecnologias full stack. Minha
+              missão é desenvolver aplicações práticas e eficientes, seja para a
+              web, automações ou soluções personalizadas. Este espaço foi criado
+              para compartilhar minha jornada como programador e conectar com
+              pessoas que valorizam inovação e tecnologia. Sinta-se à vontade
+              para explorar meus projetos e entrar em contato. Seja para trocar
+              ideias, colaborar em um projeto ou apenas bater um papo sobre
+              tecnologia, estarei à disposição. Vamos construir algo incrível
+              juntos!
+            </p>
+          </div>
+        </section>
+
+        <hr class="divisor">
+
+        <section class="sections" id="p1">
+            <div class="block-section">
+            <h1 class="text-h1"> Calculadora TMB</h1>
+              
+              <div class="calc-tmb">
+                
+                <div class="alt">
+                    <label for="altura">Altura </label>
+                    <input type="number" id="altura" placeholder="180">
+                </div>
+                <div class="peso">
+                    <label for="peso">Peso </label>
+                    <input type="number" id="peso" placeholder="80">
+                </div>
+                <div class="idade">
+                    <label for="idade">Idade </label>
+                    <input type="number" id="idade" placeholder="22">
+                </div>
+                <div class="selectors">
+                    <div>
+                        
+                        <input type="radio" id="homem" name="base" value="M" checked>
+                        <label for="homem">Homem</label>
+                    </div>
+                    <div>
+                        
+                        <input type="radio" id="mulher" name="base" value="F"> 
+                        <label for="homem">Mulher</label>
+                    </div>
+                </div>
+                <button id="btn-calc">Calcular</button>
+                <p class="resul"></p>
+              </div>
+              
+              
+            </div>
+          </section>
+
+          <hr class="divisor">
+
+        <section class="sections" id="p2">
+            <div class="block-section">
+                <h1 class="text-h1"> Conversor de Dolar</h1>
+
+                <div class="converter">
+                    <div class="moeda">
+                        <label for="moeda">Dolar</label>
+                        <input type="number" id="dolar" class="moeda-input" value="1">
+                    </div>
+                    <i class="bi bi-currency-dollar"></i>
+                    <div class="real">
+                        <label for="real">Real</label>
+                        <input type="number" id="real-dolar" class="real-input" disabled>
+                    </div>
+                </div>
+              
+              
+            </div>
+        </section>
+
+        <hr class="divisor">
+
+        <section class="sections" id="p4">
+            <div class="block-section">
+                <h1 class="text-h1"> Conversor de Euro</h1>
+
+                <div class="converter">
+                    <div class="moeda">
+                        <label for="moeda">Euro</label>
+                        <input type="number" id="euro" class="moeda-input" value="1">
+                    </div>
+                    <i class="bi bi-currency-euro"></i>
+                    <div class="real">
+                        <label for="real">Real</label>
+                        <input type="number" id="real-euro" class="real-input" disabled>
+                    </div>
+                </div>
+              
+              
+            </div>
+        </section>
+
+        <hr class="divisor">
+
+        <section class="sections" id="p3">
+            <div class="block-section">
+                <h1 class="text-h1"> Conversor de Bitcoin</h1>
+
+                <div class="converter">
+                    <div class="moeda">
+                        <label for="moeda">Bitcoin</label>
+                        <input type="number" id="bitcoin" class="moeda-input" value="1">
+                    </div>
+                    <i class="bi bi-currency-bitcoin"></i>
+                    <div class="real">
+                        <label for="real">Real</label>
+                        <input type="number" id="real-bitcoin" class="real-input" disabled>
+                    </div>
+                </div>
+              
+              
+            </div>
+        </section>
+
+        
+      </main>
+
+      <footer>
+        <h1>Desenvovido por @DevLopes </h1>
+        <div class="redes">
+            <a href="https://github.com/matheushslopesdev" target="_blank"><i id="redes" class="bi bi-github"></i></a>
+            <a href="https://www.youtube.com/@devlopess" target="_blank"><i id="redes" class="bi bi-youtube"></i></i></a>
+            <a href="https://www.instagram.com/matheushslopes_/" target="_blank"><i  id="redes" class="bi bi-instagram"></i></i></i></a>
+        </div>
+        
+      </footer>
+    </div>
+
+    
+
+    <script src="./src/js/calcTmb.js"></script>
+    <script src="./src/js/moedaApi.js"></script>
+  </body>
+</html>

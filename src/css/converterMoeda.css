@@ -1,0 +1,95 @@
+
+
+.converter{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+
+
+    & .moeda{
+        display: flex;
+        flex: 50%;
+        flex-direction: column;
+        padding: 10px;
+        
+        & .moeda-input{
+    
+            flex-direction: column;
+            padding: 10px;
+            font-family: "Josefin Sans", serif;
+            font-size: 30px;
+            
+        }
+
+        & label {
+            font-size: 20px;
+            font-family: "Josefin Sans", serif;
+          }
+        
+    }
+
+    & .real{
+        display: flex;
+        flex: 50%;
+        flex-direction: column;
+        padding: 10px;
+       
+
+        & .real-input{
+            
+            flex-direction: column;
+            padding: 10px;
+            font-family: "Josefin Sans", serif;
+            font-size: 30px;
+        
+        }
+
+        & label {
+            font-size: 20px;
+            font-family: "Josefin Sans", serif;
+          }
+    }
+}
+
+.bi-currency-dollar{
+    display: flex;
+    margin-top: 15px;
+    padding: 3px;
+    border-radius: 100%;
+    background-color: green;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+}
+
+.bi-currency-bitcoin{
+    display: flex;
+    margin-top: 15px;
+    color: white;
+    padding: 3px;
+    border-radius: 100%;
+    background-color: gold;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+}
+
+.bi-currency-euro{
+    display: flex;
+    margin-top: 15px;
+    color: white;
+    padding: 3px;
+    border-radius: 100%;
+    background-color: #3DA9CE;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+}
+
+
